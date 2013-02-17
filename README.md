@@ -4,6 +4,8 @@ sql-files
 Useful SQL dump files I use in my projects. Feel free to use them. 
 
 ### countries
+	SQL dump for countries of the world
+	3
 	* id     => primary key
 	* iso_2  => ISO ALPHA-2 Code
 	* iso_3  => ISO ALPHA-3 Code
@@ -14,6 +16,12 @@ Useful SQL dump files I use in my projects. Feel free to use them.
 	* full_name_en => Full Country Names in English
 	* continent_code => Code of the continent country belongs to.
 
-### turkish_cities.sql
-    * id => licence plate number
-    * name => city name
+### cities-tr.sql
+	SQL dump for cities in Turkey
+	
+    * id    => primary key
+    * plate => plate number
+    * name  => city name
+    * iso-3166-2 => ISO 3166-2 Code
+    * NUTS  => Nomenclature of Territorial Units for Statistics
+    * phone-prefix => Area Code for phone numbers

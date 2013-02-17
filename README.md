@@ -5,7 +5,7 @@ Useful SQL dump files I use in my projects. Feel free to use them.
 
 ### countries
 	SQL dump for countries of the world
-	3
+
 	* id     => primary key
 	* iso_2  => ISO ALPHA-2 Code
 	* iso_3  => ISO ALPHA-3 Code
